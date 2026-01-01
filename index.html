@@ -1,0 +1,596 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="index, follow">
+    <meta name="description" content="Get your BLS certification 100% online. Nationally accepted, fast, and easy. Learn CPR, AED use, and more to be ready in an emergency.">
+    
+    <!-- Canonical Tag -->
+    <link rel="canonical" href="https://aclscertification.org/bls-certification/">
+    
+    <title>BLS Certification: Your Guide to Life-Saving Skills Online</title>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+    
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        :root {
+            --primary: #e63946;
+            --primary-dark: #c1121f;
+            --secondary: #1d3557;
+            --light: #f1faee;
+            --accent: #457b9d;
+            --text: #333333;
+            --text-light: #666666;
+            --white: #ffffff;
+            --shadow: 0 4px 12px rgba(0,0,0,0.1);
+            --transition: all 0.3s ease;
+        }
+        
+        body {
+            font-family: 'Open Sans', sans-serif;
+            line-height: 1.6;
+            color: var(--text);
+            background-color: var(--white);
+            overflow-x: hidden;
+        }
+        
+        h1, h2, h3, h4 {
+            font-family: 'Poppins', sans-serif;
+            font-weight: 600;
+            color: var(--secondary);
+            margin-bottom: 1rem;
+        }
+        
+        h1 {
+            font-size: 2.5rem;
+            line-height: 1.2;
+            margin-bottom: 1.5rem;
+            animation: fadeInDown 1s ease;
+        }
+        
+        h2 {
+            font-size: 1.8rem;
+            padding-bottom: 0.5rem;
+            border-bottom: 2px solid var(--primary);
+            margin-top: 2rem;
+        }
+        
+        h3 {
+            font-size: 1.4rem;
+            color: var(--accent);
+        }
+        
+        p {
+            margin-bottom: 1.2rem;
+            font-size: 1.1rem;
+        }
+        
+        a {
+            color: var(--primary);
+            text-decoration: none;
+            transition: var(--transition);
+        }
+        
+        a:hover {
+            color: var(--primary-dark);
+            text-decoration: underline;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+        
+        /* Header Styles */
+        header {
+            background: linear-gradient(135deg, var(--secondary) 0%, #2a4a7a 100%);
+            color: var(--white);
+            padding: 2rem 0;
+            box-shadow: var(--shadow);
+        }
+        
+        .header-content {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+        }
+        
+        .logo {
+            font-size: 2rem;
+            font-weight: 700;
+            margin-bottom: 0.5rem;
+            color: var(--white);
+        }
+        
+        .logo span {
+            color: var(--primary);
+        }
+        
+        .tagline {
+            font-size: 1.1rem;
+            opacity: 0.9;
+            max-width: 600px;
+        }
+        
+        /* Hero Section */
+        .hero {
+            padding: 3rem 0;
+            background-color: var(--light);
+            animation: fadeIn 1s ease;
+        }
+        
+        .hero-content {
+            max-width: 800px;
+            margin: 0 auto;
+            text-align: center;
+        }
+        
+        .highlight {
+            color: var(--primary);
+            font-weight: 600;
+        }
+        
+        .cta-button {
+            display: inline-block;
+            background-color: var(--primary);
+            color: var(--white);
+            padding: 12px 28px;
+            border-radius: 50px;
+            font-weight: 600;
+            margin-top: 1.5rem;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            transition: var(--transition);
+            border: none;
+            cursor: pointer;
+            font-size: 1rem;
+            animation: pulse 2s infinite;
+        }
+        
+        .cta-button:hover {
+            background-color: var(--primary-dark);
+            transform: translateY(-3px);
+            box-shadow: 0 6px 15px rgba(230, 57, 70, 0.3);
+            text-decoration: none;
+        }
+        
+        /* Main Content */
+        main {
+            padding: 3rem 0;
+        }
+        
+        .content-section {
+            margin-bottom: 3rem;
+            padding: 2rem;
+            background-color: var(--white);
+            border-radius: 10px;
+            box-shadow: var(--shadow);
+            animation: slideUp 0.8s ease;
+        }
+        
+        .content-section:nth-child(even) {
+            animation: slideUp 1s ease;
+        }
+        
+        .info-box {
+            background-color: #f8f9fa;
+            padding: 1.5rem;
+            border-left: 4px solid var(--accent);
+            margin: 1.5rem 0;
+            border-radius: 0 8px 8px 0;
+        }
+        
+        .statistic-box {
+            background-color: #e9f5ff;
+            padding: 1.5rem;
+            border-radius: 8px;
+            margin: 1.5rem 0;
+            border-left: 4px solid var(--secondary);
+        }
+        
+        .statistic-box h4 {
+            color: var(--secondary);
+        }
+        
+        ul, ol {
+            margin-left: 1.5rem;
+            margin-bottom: 1.5rem;
+        }
+        
+        li {
+            margin-bottom: 0.5rem;
+        }
+        
+        .keyword-link {
+            background-color: rgba(69, 123, 157, 0.1);
+            padding: 2px 6px;
+            border-radius: 4px;
+            font-weight: 600;
+        }
+        
+        /* Features Grid */
+        .features-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+            gap: 1.5rem;
+            margin-top: 2rem;
+        }
+        
+        .feature-card {
+            background-color: var(--white);
+            padding: 1.5rem;
+            border-radius: 8px;
+            box-shadow: var(--shadow);
+            transition: var(--transition);
+            border-top: 3px solid var(--accent);
+        }
+        
+        .feature-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+        }
+        
+        .feature-icon {
+            font-size: 2rem;
+            color: var(--primary);
+            margin-bottom: 1rem;
+        }
+        
+        /* Footer */
+        footer {
+            background-color: var(--secondary);
+            color: var(--white);
+            padding: 3rem 0 1.5rem;
+            text-align: center;
+        }
+        
+        .footer-content {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        
+        .footer-links {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 1.5rem;
+            margin-bottom: 2rem;
+        }
+        
+        .footer-links a {
+            color: var(--light);
+        }
+        
+        .copyright {
+            margin-top: 2rem;
+            padding-top: 1.5rem;
+            border-top: 1px solid rgba(255,255,255,0.1);
+            font-size: 0.9rem;
+            opacity: 0.8;
+        }
+        
+        /* Animations */
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+        
+        @keyframes fadeInDown {
+            from {
+                opacity: 0;
+                transform: translateY(-20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+        
+        @keyframes slideUp {
+            from {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+        
+        @keyframes pulse {
+            0% { box-shadow: 0 0 0 0 rgba(230, 57, 70, 0.4); }
+            70% { box-shadow: 0 0 0 10px rgba(230, 57, 70, 0); }
+            100% { box-shadow: 0 0 0 0 rgba(230, 57, 70, 0); }
+        }
+        
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 2rem;
+            }
+            
+            h2 {
+                font-size: 1.6rem;
+            }
+            
+            .container {
+                padding: 0 15px;
+            }
+            
+            .content-section {
+                padding: 1.5rem;
+            }
+            
+            .features-grid {
+                grid-template-columns: 1fr;
+            }
+            
+            .footer-links {
+                flex-direction: column;
+                gap: 1rem;
+            }
+        }
+        
+        @media (max-width: 480px) {
+            h1 {
+                font-size: 1.8rem;
+            }
+            
+            .hero {
+                padding: 2rem 0;
+            }
+            
+            .cta-button {
+                padding: 10px 22px;
+                font-size: 0.9rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">BLS<span>Cert</span>.org</div>
+                <p class="tagline">Nationally Accepted BLS Certification • Instant Provider Card • 100% Online Training</p>
+            </div>
+        </div>
+    </header>
+    
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>BLS Certification: Your Complete Guide to Life-Saving Skills Online</h1>
+                <p><span class="highlight">BLS Certification</span> is a key step for anyone who wants to be ready to help in a medical emergency. Whether you work in healthcare or just want to be prepared, this training gives you the skills to act fast and save a life. In this guide, we will explain everything about <a href="https://aclscertification.org/bls-certification/" class="keyword-link">BLS certification</a>, who needs it, what you learn, and how you can get certified quickly and easily online.</p>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Main Content -->
+    <main class="container">
+        <!-- What is BLS Certification Section -->
+        <section class="content-section">
+            <h2>What is BLS Certification?</h2>
+            <p>BLS stands for Basic Life Support. A <span class="highlight">BLS certification</span> is a credential that shows you have learned the essential skills to help someone during a cardiac or breathing emergency. This is more than just a simple CPR class. It is detailed training made for healthcare workers, but it is also great for teachers, coaches, babysitters, and anyone who wants to be prepared.</p>
+            
+            <div class="info-box">
+                <p>The course teaches you how to do high-quality CPR, use an AED (Automated External Defibrillator), and help someone who is choking. The goal is to keep oxygen flowing to the brain and heart until professional medical help arrives. Getting your <span class="highlight">BLS certification</span> means you are ready to be that vital first link in the chain of survival.</p>
+            </div>
+        </section>
+        
+        <!-- Who Needs BLS Section -->
+        <section class="content-section">
+            <h2>Who Really Needs a BLS Certificate?</h2>
+            <p>Many people think only doctors and nurses need this training. That is not true. While it is a job requirement for most healthcare professionals, it is useful for many others.</p>
+            
+            <p>Here are some of the people who should consider getting certified:</p>
+            
+            <ul>
+                <li><strong>Healthcare Professionals:</strong> Nurses, doctors, dentists, paramedics, and nursing assistants.</li>
+                <li><strong>First Responders:</strong> Police officers, firefighters, and lifeguards.</li>
+                <li><strong>Community Roles:</strong> School teachers, fitness trainers, daycare workers, and camp counselors.</li>
+                <li><strong>Any Concerned Person:</strong> Parents, grandparents<a href="https://docs.google.com/spreadsheets/d/1C86cXFZltcSJyozcW9jDVk0Iby0yOrYSAF5Fz0cD5w0/edit?usp=sharing">,</a> and anyone who wants the confidence to help in a crisis.</li>
+            </ul>
+            
+            <p>If your job involves caring for people, or if you simply want to protect your family and community, a <span class="highlight">BLS certification</span> is a very valuable thing to have.</p>
+        </section>
+        
+        <!-- What You Learn Section -->
+        <section class="content-section">
+            <h2>What Will You Learn in a BLS Course?</h2>
+            <p>A good BLS course covers several important topics in an easy-to-understand way. The training is based on the latest science from major health organizations.</p>
+            
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">💓</div>
+                    <h3>High-Quality CPR for All Ages</h3>
+                    <p>You will learn the right way to perform chest compressions and rescue breaths. The techniques are different for an adult, a child, and an infant.</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">⚡</div>
+                    <h3>Using an AED (Automated External Defibrillator)</h3>
+                    <p>An AED is a device that can shock a heart back to a normal rhythm. The course teaches you how to use one safely and effectively.</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">🫁</div>
+                    <h3>Helping a Choking Victim</h3>
+                    <p>You will learn how to tell if someone is choking badly and how to help them with techniques like back blows and abdominal thrusts.</p>
+                </div>
+            </div>
+            
+            <div style="margin-top: 2rem;">
+                <h3>The Chain of Survival</h3>
+                <p>This is a simple concept of the key steps that increase the chance of survival. The steps are: calling for help, starting CPR, using an AED, and getting advanced medical care. Understanding this chain helps you act quickly and in the right order.</p>
+                
+                <h3 style="margin-top: 1.5rem;">Working as a Team</h3>
+                <p>In many emergencies, more than one person is there to help. BLS training teaches you how to work with another rescuer. You learn how to communicate clearly and take turns doing CPR without stopping the flow of compressions.</p>
+            </div>
+        </section>
+        
+        <!-- Benefits of Online BLS Section -->
+        <section class="content-section">
+            <h2>The Big Benefit of Online BLS Certification</h2>
+            <p>In the past, you had to go to a classroom for hours on a weekend to get certified. Now, you can get the same recognized training online. Here's why online <span class="highlight">BLS certification</span> is so popular:</p>
+            
+            <ul>
+                <li><strong>Learn at Your Own Pace:</strong> You can start, pause, and review the lessons anytime. You are not trying to keep up with a class.</li>
+                <li><strong>Access from Anywhere:</strong> All you need is a computer, tablet, or smartphone with internet. You can learn from your home, office, or even on a break.</li>
+                <li><strong>Often More Affordable:</strong> Online courses do not have the costs of renting a physical space, so they can be less expensive.</li>
+                <li><strong>Fast and Convenient:</strong> Most people can finish the online training and test in just a few hours.</li>
+            </ul>
+            
+            <div class="info-box">
+                <p>After you pass the online test, you get your digital provider card right away. This card is accepted across the United States by employers, hospitals, and schools.</p>
+            </div>
+        </section>
+        
+        <!-- Statistics Section -->
+        <section class="content-section">
+            <h2>A Life-Saving Statistic: Why This Training Matters</h2>
+            <p>It is easy to think, "This won't happen to me." But the numbers show how critical these skills are. Let's look at the research.</p>
+            
+            <div class="statistic-box">
+                <h4>Important Heart Association Research</h4>
+                <p>According to the <strong>American Heart Association</strong>, about 350,000 cardiac arrests happen outside of a hospital every year in the United States. Sadly, nearly 90% of these people do not survive. However, immediate CPR can double or even triple a person's chance of survival.</p>
+                <p>This statistic shows how important it is for everyday people, not just medics, to know what to do. When someone collapses, the actions of the person next to them in the first few minutes make the biggest difference.</p>
+            </div>
+        </section>
+        
+        <!-- How to Choose a Course Section -->
+        <section class="content-section">
+            <h2>How to Choose a Good Online BLS Course</h2>
+            <p>Not all online courses are the same. Here is what to look for when you pick one:</p>
+            
+            <ol>
+                <li><strong>Accreditation:</strong> Make sure the course is nationally accepted. A good provider will clearly state this.</li>
+                <li><strong>Updated Content:</strong> Medicine changes. Choose a course that follows the latest guidelines from the American Heart Association (AHA).</li>
+                <li><strong>Good Study Materials:</strong> Look for courses that offer videos, study guides, and practice tests. These help you learn better.</li>
+                <li><strong>Simple Testing:</strong> The final exam should be clear and straightforward, with support available if you have questions.</li>
+                <li><strong>Instant Card:</strong> You should get your certification card as soon as you pass the test.</li>
+            </ol>
+            
+            <p>For those who work with children and need pediatric life support training, you might also consider a <a href="https://pals-certification-online.netlify.app/" class="keyword-link">PALS Certification</a> course, which focuses specifically on pediatric emergencies.</p>
+        </section>
+        
+        <!-- Recertification Section -->
+        <section class="content-section">
+            <h2>Keeping Your Skills Current: BLS Recertification</h2>
+            <p>A BLS certification is not for life. It usually expires every two years. This is because guidelines and best practices are updated. <strong>BLS recertification</strong> is a shorter course that refreshes your memory and teaches you any new techniques.</p>
+            
+            <p>The online recertification process is even faster, often taking just 1-2 hours. It is a simple way to keep your life<a href="https://docs.google.com/spreadsheets/d/1xUhz-6zOJs7Y5SX7JYjKs3LV-YhtBqiLYIUeVF9cME0/edit?usp=sharing">-</a>saving skills sharp and your credentials valid.</p>
+        </section>
+        
+        <!-- Final CTA Section -->
+        <section class="content-section" id="get-certified" style="text-align: center; background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);">
+            <h2>Ready to Get Certified?</h2>
+            <p>Getting your BLS certification is one of the most empowering things you can do. It moves you from being a worried bystander to a confident potential lifesaver. The training is simple, the online process is easy, and the skills you gain are priceless.</p>
+            
+            <div class="info-box" style="max-width: 800px; margin: 2rem auto;">
+                <p>You do not need a medical background. You just need the desire to learn. In just a few hours, you can complete your <span class="highlight">BLS certification</span> and carry the knowledge and confidence to make a real difference in someone<a href="https://docs.google.com/spreadsheets/d/1C86cXFZltcSJyozcW9jDVk0Iby0yOrYSAF5Fz0cD5w0/edit?usp=sharing">'</a>s worst moment.</p>
+            </div>
+            
+            
+            <p style="margin-top: 1.5rem; font-size: 0.9rem; color: var(--text-light);">100% Online • Instant Certification Card • Money-Back Guarantee</p>
+        </section>
+    </main>
+    
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="logo" style="color: var(--white); margin-bottom: 1.5rem;">BLS<span>Cert</span>.org</div>
+                
+                <div class="footer-links">
+                    <a href="#about">About Us</a>
+                    <a href="#courses">All Courses</a>
+                    <a href="#contact">Contact</a>
+                    <a href="#faq">FAQ</a>
+                    <a href="#privacy">Privacy Policy</a>
+                    <a href="#terms">Terms of Service</a>
+                </div>
+                
+                <p style="max-width: 700px; margin: 0 auto 1.5rem; opacity: 0.9; line-height: 1.6;">
+                    BLS Certification Online provides nationally accepted Basic Life Support training for healthcare professionals and community responders. Our courses follow the latest AHA guidelines and are designed for fast, flexible learning.
+                </p>
+                
+                <div class="copyright">
+                    <p>&copy; 2026 BLS Certification Online. All rights reserved.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+    <script>
+        // Simple animation for elements when they come into view
+        document.addEventListener('DOMContentLoaded', function() {
+            // Add fade-in animation to all content sections as they scroll into view
+            const observerOptions = {
+                threshold: 0.1,
+                rootMargin: '0px 0px -50px 0px'
+            };
+            
+            const observer = new IntersectionObserver(function(entries) {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.style.opacity = '1';
+                        entry.target.style.transform = 'translateY(0)';
+                    }
+                });
+            }, observerOptions);
+            
+            // Observe all content sections
+            document.querySelectorAll('.content-section').forEach(section => {
+                section.style.opacity = '0';
+                section.style.transform = 'translateY(20px)';
+                section.style.transition = 'opacity 0.6s ease, transform 0.6s ease';
+                observer.observe(section);
+            });
+            
+            // Smooth scrolling for anchor links
+            document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+                anchor.addEventListener('click', function(e) {
+                    e.preventDefault();
+                    
+                    const targetId = this.getAttribute('href');
+                    if (targetId === '#') return;
+                    
+                    const targetElement = document.querySelector(targetId);
+                    if (targetElement) {
+                        window.scrollTo({
+                            top: targetElement.offsetTop - 80,
+                            behavior: 'smooth'
+                        });
+                    }
+                });
+            });
+            
+            // Add a simple hover effect to feature cards
+            document.querySelectorAll('.feature-card').forEach(card => {
+                card.addEventListener('mouseenter', function() {
+                    this.style.transform = 'translateY(-8px)';
+                });
+                
+                card.addEventListener('mouseleave', function() {
+                    this.style.transform = 'translateY(0)';
+                });
+            });
+        });
+    </script>
+</body>
+</html>
